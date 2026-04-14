@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: a5020877/docker-fastapi:1c85e0db28bf5c5e1b0ebf20a0deeba72db5e654
+          image: a5020877/docker-fastapi:a3d2ab92ec02ddccd71d75866161e3b62b51c993
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
