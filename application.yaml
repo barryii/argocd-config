@@ -12,3 +12,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: default
+  syncPolicy:
+    automated:
+      prune: true     # 如果 Git 上把設定刪除了，K8s 也會跟著刪除
+      selfHeal: true
